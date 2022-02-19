@@ -1,0 +1,31 @@
+# 1 : The orders placed are the orders that will be blocked
+# 2 : The orders placed are orders that will not be blocked
+Mode: 2
+
+# If true, disable the permission/prohibition of use system on commands that are no longer tabular
+permissionOff: false
+
+# "" to leave empty
+message: "&9Select&3Tab&acompleter&7: &fYou do not have authorization !"
+
+# Order by group with permission stc.[group]
+# Example: stc.defaults
+
+Groups:
+    defaults:
+        Commands:
+            - help
+            - msg
+            - r
+            - tell
+            - tpa
+            - tpaaccept
+            - back
+            - rules
+    modos:
+        Commands:
+            - '?'
+            - pl
+            - plugins
+            - ver
+            - version
